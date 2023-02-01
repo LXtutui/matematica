@@ -1,0 +1,18 @@
+body{
+	background: rgb(248, 85, 85);
+}
+
+	.login_div1 , .login_div2{
+		background: rgb(175, 184, 237);
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+	}
+
+
+#nome_do_jogador_2 , #nome_do_jogador_1{
+    background: rgb(206, 213, 249);
+}
+span{
+	font-size: 40px;
+}
