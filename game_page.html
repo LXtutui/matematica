@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quiz matematica</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet"href="style.css">
+
+<script src="game_page.js"></script>
+</head>
+<body>
+    <span id="player1_name"></span><span id="player1_score"></span>
+    <br>
+    <span id="player2_name"></span><span id="player2_score"></span>
+    <div class="container">
+	    <center>
+            <h1 style="color: white">Quiz de matematica</h1>
+            <h3 id="resposta"></h3>
+            <h3 id="pergunta"></h3>
+            <h2>numero 1</h2>
+            <input type="number" id="primeiro_numero"class="form-control">
+            <h2>numero 2</h2>
+            <input type="number" id="segundo_numero"class="form-control">
+            <hr>
+	        <button class="btn btn-success" onclick="tela2()">Enviar</button>
+	    </center>
+    </div>
+</body>
+</html>

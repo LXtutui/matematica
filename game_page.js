@@ -1,0 +1,10 @@
+var nome_do_jogador_1 = localStorage.getItem("nome_1");
+var nome_do_jogador_2 = localStorage.getItem("nome_2");
+var pontos1 = 0;
+var pontos2 = 0;
+document.getElementById("player1_name").innerHTML=nome_do_jogador_1+":";
+document.getElementById("player2_name").innerHTML=nome_do_jogador_2+":";
+document.getElementById("player1_score").innerHTML=pontos1;
+document.getElementById("player2_score").innerHTML=pontos2;
+document.getElementById("pergunta").innerHTML="turno da pergunta: "+nome_do_jogador_1;
+document.getElementById("resposta").innerHTML="turno da resposta: "+nome_do_jogador_2;

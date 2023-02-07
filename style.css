@@ -14,5 +14,8 @@ body{
     background: rgb(206, 213, 249);
 }
 span{
-	font-size: 40px;
+	font-size: 20px;
+}
+#player1_name , #player2_name{
+	padding-left: 10px !important;
 }
